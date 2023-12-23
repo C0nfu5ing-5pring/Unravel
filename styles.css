@@ -20,8 +20,13 @@ body {
 #header {
     text-align: center;
     width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .brand-name {
@@ -75,6 +80,11 @@ body {
 
 .italicise {
     font-style: italic;
+}
+
+.italicise-bold {
+    font-style: italic;
+    font-weight: 700;
 }
 
 .subheading {
@@ -134,17 +144,10 @@ body {
 
 /**Features**/
 
-section#features {
+#features {
     background-color: black;
     color: white;
-}
 
-.features-headline {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 45px;
-    font-family: 'Zodiak', serif;
 }
 
 #features::selection {
@@ -152,19 +155,26 @@ section#features {
     background-color: white;
 }
 
+.features-headline {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Zodiak', serif;
+    padding-top: 30px;
+}
+
 .feature-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    padding: 20px;
 }
 
 .feature-h3 {
     font-family: 'General Sans', sans-serif;
     font-size: 25px;
     margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+
 }
 
 .feature-paragraph {
@@ -172,6 +182,19 @@ section#features {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 17px;
+}
+
+.feature-image {
+    height: 30px;
+    width: 30px;
+}
+
+.features {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
 }
 
 /**Media Queries**/
@@ -197,11 +220,19 @@ section#features {
     .headline {
         font-size: 33px;
     }
+
+    .feature-paragraph {
+        text-align: justify;
+    }
 }
 
 @media (width <=369px) {
     .nav-link {
         padding: 7px;
+    }
+
+    .feature-paragraph {
+        text-align: justify;
     }
 }
 
@@ -209,10 +240,20 @@ section#features {
     .nav-link {
         padding: 5px;
     }
+
+    .feature-paragraph {
+        text-align: justify;
+    }
+
 }
 
 @media (width <=340px) {
     .nav-link {
         padding: 5px;
     }
+
+    .feature-paragraph {
+        text-align: justify;
+    }
+
 }
