@@ -11,7 +11,7 @@ This landing page is built using HTML and CSS to showcase the features of Unrave
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/c0fu5ing-5pring/unravel-mystery-boxes-landing.git
+    git clone https://github.com/c0fu5ing-5pring/Unravel.git
     ```
 
 2. **Open `index.html` in your preferred web browser.**
@@ -23,7 +23,7 @@ This landing page is built using HTML and CSS to showcase the features of Unrave
 
 ## Project Preview
 
-View the live project at [Unravel Landing Page](https://c0nfu5ing-5pring.github.io/unravel).
+View the live project at [Unravel Landing Page](https://c0nfu5ing-5pring.github.io/Unravel).
 
 ## License
 
