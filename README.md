@@ -23,7 +23,7 @@ This landing page is built using HTML and CSS to showcase the features of Unrave
 
 ## Project Preview
 
-View the live project at [Unravel Landing Page](https://c0nfu5ing-5pring.github.io/unravel)].
+View the live project at [Unravel Landing Page](https://c0nfu5ing-5pring.github.io/unravel).
 
 ## License
 
