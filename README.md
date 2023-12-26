@@ -1,4 +1,4 @@
-# Unravel Mystery Boxes Landing Page
+# Unravel Landing Page
 
 This is a simple product landing page project for Unravel Mystery Boxes, created as part of the freeCodeCamp certification.
 
