@@ -21,6 +21,23 @@ body {
     min-height: 100vh;
 }
 
+
+.italicise {
+    font-style: italic;
+    font-family: 'Zodiak', serif;
+}
+
+.italicise-bold {
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Zodiak', serif;
+}
+
+.smaller-text {
+    font-weight: 300;
+    font-size: 20px;
+}
+
 /**Header**/
 #header {
     text-align: center;
@@ -70,11 +87,6 @@ body {
     text-align: center;
 }
 
-.nav-link:hover {
-    transform: scale(1.02);
-}
-
-
 .headline {
     text-align: center;
     padding-left: 10px;
@@ -82,15 +94,6 @@ body {
     font-size: 40px;
     font-family: 'General Sans', sans-serif;
 
-}
-
-.italicise {
-    font-style: italic;
-}
-
-.italicise-bold {
-    font-style: italic;
-    font-weight: 700;
 }
 
 .subheading {
@@ -152,11 +155,6 @@ body {
 #features {
     background-color: black;
     color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: scroll .6s;
     scroll-snap-align: start;
 }
 
@@ -166,21 +164,22 @@ body {
 }
 
 .features-headline {
+    padding-top: 50px;
+    flex-direction: column;
     text-align: center;
     font-size: 45px;
     font-family: 'Zodiak', serif;
 }
 
-.feature-container {
+.feature-holder {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    padding: 20px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    text-align: center;
 }
 
-.features {
+.feature {
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -226,8 +225,87 @@ body {
 }
 
 
-/**Plans**/
+/**Pricing**/
 
+#pricing {
+    background-color: black;
+    color: white;
+    scroll-snap-align: start;
+}
+
+#pricing::selection {
+    color: black;
+    background-color: white;
+}
+
+.pricing-headline {
+    padding-top: 50px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Zodiak', serif;
+}
+
+.card-holder {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.card-1 {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-family: 'General Sans', sans-serif;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.pricing-h2 {
+    font-size: 24px;
+    font-family: 'Zodiak', serif;
+}
+
+.pricing-price {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.pricing-p {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.pricing-button {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    transition: all .3s ease-in;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.pricing-button:hover {
+    color: white;
+    background-color: black;
+}
 
 /**Media Queries**/
 
