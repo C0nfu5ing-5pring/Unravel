@@ -265,6 +265,7 @@ body {
     font-family: 'General Sans', sans-serif;
     border-radius: 14px;
     padding: 20px;
+    width: 500px;
 }
 
 .pricing-h2 {
@@ -283,7 +284,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .pricing-button {
